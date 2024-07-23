@@ -1,0 +1,53 @@
+/*.ticket
+{
+    padding:10px;
+    height:20px;
+    width:220px;
+    border:40px solid white;
+    border-radius: 14px;
+}*/
+
+.lottery-card {
+    background-color: #282C34; /* A dark blue-gray */
+    border-radius: 20px;
+    padding: 20px;
+    width: 250px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ticket-container {
+    background-color: #374151; /* A darker shade of blue */
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    height: 100px;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .buy-button {
+    background-color: #FFD700; /* Gold */
+    color: #282C34; /* Dark blue */
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .win-message {
+    color: gold;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  
+
